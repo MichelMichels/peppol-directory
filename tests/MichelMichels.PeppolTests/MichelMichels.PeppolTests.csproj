@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\MichelMichels.Peppol.Core\MichelMichels.Peppol.Core.csproj" />
+    <ProjectReference Include="..\..\src\MichelMichels.Peppol.Models\MichelMichels.Peppol.Models.csproj" />
+    <ProjectReference Include="..\..\src\MichelMichels.Peppol\MichelMichels.Peppol.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 

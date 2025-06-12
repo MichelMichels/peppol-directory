@@ -5,7 +5,7 @@ namespace MichelMichels.Peppol.Models;
 public class Entity
 {
     [JsonPropertyName("name")]
-    public string Name { get; set; } = string.Empty;
+    public List<Name> Name { get; set; } = [];
 
     [JsonPropertyName("countryCode")]
     public string CountryCode { get; set; } = string.Empty;
