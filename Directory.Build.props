@@ -1,0 +1,18 @@
+<Project>
+    <PropertyGroup>
+        <MichelMichelsPeppolVersion>0.9</MichelMichelsPeppolVersion>
+        <Version>$(MichelMichelsPeppolVersion)</Version>
+        <FileVersion>$(MichelMichelsPeppolVersion)</FileVersion>
+        <InformationalVersion>$(MichelMichelsPeppolVersion)</InformationalVersion>
+	    <TargetFramework>net9.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/MichelMichels/peppol-directory</RepositoryUrl>
+		<Authors>Michel Michels</Authors>      
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+      <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
