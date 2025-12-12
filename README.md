@@ -1,6 +1,9 @@
-# PeppolDirectoryClient
+# Peppol directory
 
-This repository contains a C# REST API wrapper for [directory.peppol.eu](https://directory.peppol.eu)
+[![NuGet Version](https://img.shields.io/nuget/v/MichelMichels.Peppol)](https://www.nuget.org/packages/MichelMichels.Peppol)
+
+This repository contains a C# REST API wrapper for [directory.peppol.eu](https://directory.peppol.eu) and 
+an XML file parser for the business cards XML export they provide.
 
 Please read [the official documentation](https://directory.peppol.eu/public/locale-en_US/menuitem-docs-rest-api). 
 
