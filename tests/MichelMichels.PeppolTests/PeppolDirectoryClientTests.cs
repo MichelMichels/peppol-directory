@@ -11,16 +11,17 @@ public sealed class PeppolDirectoryClientTests
     public async Task Search_Test()
     {
         // Arrange
-        PeppolDirectoryClient client = new(PeppolDirectoryBaseUrl.Test);
+        PeppolDirectoryClient client = new(PeppolDirectoryBaseUrl.Production);
         QueryParameters parameters = new()
         {
-            Query = "iDocta",
+            Query = "0897067282",
         };
 
         // Act
         var result = await client.Search(parameters);
 
         // Assert
-        Assert.IsTrue(result.Matches.Count > 0);
+        Assert.HasCount(1, result.Matches);
+        Assert.AreEqual("0208:0897067282", result.Matches[0].ParticipantIdentifier.Value);
     }
 }

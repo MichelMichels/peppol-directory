@@ -1,6 +1,6 @@
 <Project>
     <PropertyGroup>
-        <MichelMichelsPeppolVersion>0.9.1</MichelMichelsPeppolVersion>
+        <MichelMichelsPeppolVersion>1.0.0</MichelMichelsPeppolVersion>
         <Version>$(MichelMichelsPeppolVersion)</Version>
         <FileVersion>$(MichelMichelsPeppolVersion)</FileVersion>
         <InformationalVersion>$(MichelMichelsPeppolVersion)</InformationalVersion>
